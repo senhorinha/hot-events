@@ -26,9 +26,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # To enable features such as static asset serving and logging on Heroku
 gem 'rails_12factor', group: :production
 
+# Facebook library for Ruby
+gem "koala", "~> 2.2"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'rspec-rails', '~> 3.0'
 end
 
 group :development do
